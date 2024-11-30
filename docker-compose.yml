@@ -1,0 +1,7 @@
+version: '2'
+services:
+  rce-labs:
+    build: .
+    ports:
+      - "8081:80"
+    
